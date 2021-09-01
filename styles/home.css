@@ -13,7 +13,7 @@ html, body {height:100%;}
 
 .container {
     background-color: rgb(241, 233, 233);
-    width: 650px;
+    width: 550px;
     height: 450px;
     margin: 0 auto;
     transform: translateY(50%);
@@ -35,7 +35,7 @@ html, body {height:100%;}
 .container-text h1 {
     display: flex;
     justify-content: center;
-    margin-top: 30%;
+    margin-top: 10%;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 42px;
@@ -44,7 +44,7 @@ html, body {height:100%;}
 .container-text p {
     display: flex;
     justify-content: center;
-    margin-top: 30%;
+    margin-top: 20%;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
@@ -57,7 +57,7 @@ html, body {height:100%;}
 
 .container-img img {
     display: flex;
-    margin: 25% 0 0 0;
+    margin: 15% 15% 15% 15%;
 }
 
 
@@ -109,7 +109,5 @@ html, body {height:100%;}
     color: black;
     font-size: 16px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-   
+    font-family: 'Roboto', sans-serif;   
 }
-
