@@ -80,9 +80,18 @@ html, body {height:100%;}
 }
 
 .button-content a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    color: black;
+}
+
+.button-content i {
     color: black;
 }
 
