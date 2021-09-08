@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    height:100%;
-}
 
 .col {
     border-bottom: 1px solid black;
@@ -22,7 +17,6 @@ body {
     font-size: 42px;
     width: 100%;
 }
-
 
 
 .col a {
@@ -48,6 +42,7 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .card {
@@ -107,4 +102,38 @@ body {
     font-size: 16px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;   
+}
+
+@media (max-width: 980px) {
+    .container-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .card {
+        width: 400px;
+    }
+}
+
+@media (max-width: 830px){
+    .container-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+        width: 300px;
+    }
+}
+
+@media (max-width: 620px) {
+    .container-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 350px;
+    }
+
 }
